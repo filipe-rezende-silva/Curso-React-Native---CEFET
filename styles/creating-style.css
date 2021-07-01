@@ -1,0 +1,67 @@
+.form{
+   font-family:monospace;
+   width: 60vw;
+   height: 45vh;
+   margin: 0 auto;
+   border: black solid 3px;
+   border-radius: 14px;
+   
+}
+
+.Mheader{
+   
+   display: flex;
+   align-items: center;
+   border-bottom: black 2px solid;
+   
+}
+
+.Mheader h3{
+   font-family:monospace;
+   margin: 0 auto;
+}
+
+.Mheader a{
+   display: flex;
+   margin: 5px;
+}
+.Mheader img{      
+   height: 2vh;
+   display: flex;
+}
+.itemForm{
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 42%;
+   margin: 0 auto;
+   padding-bottom: 10px;
+   }
+.itemForm label{
+   padding-top: 20px;
+   padding-bottom: 5px;
+   font-size: 18px;
+   font-family:monospace;
+   
+}
+.itemForm input{
+   border-radius: 8px;
+   background-color: rgba(170, 170, 170, 0.397);
+}
+.itemForm button{
+   margin-top: 25px;
+   background-color:rgb(158, 127, 87);
+   padding: 6px 20px;
+   border-radius: 15px;        
+}
+#divFinal{
+   text-align: center;
+   width: 20vw;
+}
+#divFinal label{
+   margin-bottom: -15px;
+}
+
+

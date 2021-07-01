@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+    <title>Motonagement</title>
+</head>
+<body>
+    
+    <!-- CABEÇALHO --> 
+    <div class="navbar"> 
+        <h1 class="tituloHeader">Seja bem vindo ao MOTONAGEMENT</h1>
+    </div>
+
+    <!--CORPO DO TEXTO-->
+    <div class="corpo">
+        <div class="boxLogin">
+            <h3>FAÇA SEU LOGIN</h3>
+            <p>Digite seu usuário:</p>
+            <input type="text"  id="inputUsuario">
+            <p>Digite sua senha:</p>
+            <input type="text" id="inputSenha">
+            <br>
+            <input type="button" value="Entrar" id="btnEntrar" onclick="usuarioLogar()">
+        </div>
+        <div class="boxCadastro">
+            <h3>FAÇA SEU CADASTRO</h3>
+            <p>Digite seu usuário:</p>
+            <input type="text" name="" id="inputUsuario">
+            <p>Digite sua senha:</p>
+            <input type="text" id="inputSenha">
+            <p>Repita sua senha:</p>
+            <input type="text" id="inputConfirmaSenha">
+            <br>
+            <input type="button" value="Criar" id="btnCriar" onclick="usuarioCriar()">
+        </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <footer>
+
+    </footer> 
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+/*----------------------LOGIN------------------------------*/
+*{
+        
+   margin: 0;
+   padding: 0;
+   
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100vw;
+   height: 5vh;
+   background-color: whitesmoke;
+   text-align:center;
+   position: fixed;
+   border-bottom: slategray 4px solid;
+   
+   
+}
+.tituloHeader{   
+   display: flex;
+   font-size: 190%;
+   border-bottom-style: groove;
+   
+}
+.corpo{
+display: flex;
+padding: 20vh 10vw;
+background-color:rgb(158, 127, 87);
+
+}
+
+.boxLogin{
+text-align: center;
+background-color: gainsboro;
+border: rgb(104, 102, 102) solid 3px;
+border-radius: 22px;
+height: 60vh;
+width: 40vw;
+float: left;
+margin-right: 4vw;
+}
+
+.boxCadastro{
+text-align: center;
+background-color: gainsboro;
+border: rgb(104, 102, 102) solid 3px;
+border-radius: 22px;
+height: 60vh;
+width: 40vw;
+margin-left: 4vw;
+}
+
+.corpo .boxLogin h3{
+padding-top: 6vh;
+padding-bottom: 4vh;
+border-bottom: 4px slategray solid;
+}
+.corpo .boxLogin p{
+   font-size: 18px;
+   padding: 2vh 0vw;
+}
+
+#btnEntrar{
+   margin-top: 2vh;
+   font-size: 18px;
+}
+
+.corpo .boxCadastro h3{
+padding-top: 6vh;
+padding-bottom: 4vh;
+border-bottom: 4px slategray solid ;
+}
+
+.corpo .boxCadastro p{
+   font-size: 18px;
+   padding: 1vh 0vw;
+   margin-top: 1vh;
+}
+
+#btnCriar{
+   margin-top: 2vh;
+   font-size: 18px;
+}

@@ -1,0 +1,306 @@
+
+        *{
+        
+            margin: 0;
+            padding: 0;
+            
+         }
+/*----------------------INDEX-----------------------------*/
+
+         body{
+             background-color: antiquewhite;
+         }
+
+        .indexNavbar{
+            align-items: center;
+            text-align:center;
+            display: flex; 
+            flex-direction: row;          
+            width: 100vw;
+            height: 5vh;
+            background-color:rgb(201, 174, 124);
+            position: fixed;
+            border-bottom: slategray 4px solid;
+        }
+        .user-name{
+            font-family: 'Noto Serif', serif;
+            display: flex;
+            flex-direction: row;
+            width: 10%;
+            align-items: center;
+            height: 100%;
+        }
+
+        .user-name a{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 20%;   
+         text-decoration: none;
+         width: 27%;
+         height: 90%;
+        }
+
+        .user-name a:hover{
+
+            border-radius: 5%; 
+            background-color:rgb(173, 142, 84) ;
+
+           }
+
+        #iconeUsuario{ 
+            background-color: white;
+            border-radius: 100%;        
+            width: 2.5vmax;
+            height: 2.5vmax;
+        }
+
+        #username{
+            padding-left: 5%;
+            align-self: center;
+            font-size: 1.1em;
+        }
+
+        .indexTituloHeader{   
+            display: flex;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8em;
+            font-family: 'Raleway', sans-serif;
+        }
+        .indexTituloHeader img{
+            width: 5vmax;
+            height: 2.5vmax;
+        }
+        .log-out{
+            display: flex;
+            width: 10%;
+            height: 100%;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        #logout{
+            width: 1.8rem;
+            height: 1.8rem;
+            margin-right: 25%;
+            display: flex;
+            align-items: center;
+        }
+
+        #logout img{
+            background-color: white;
+            border-radius: 45%;
+            width: 2.5vmax;
+            height: 2.5vmax;
+        }
+
+        .indexCorpo{
+            padding-top: 6vh;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            height: 93vh;
+            width: 95%;
+            
+                  
+        }
+        
+
+/*---------------LISTA DE MOTOCICLETAS-----------------------*/
+
+           .listaMotos{
+            background-color: whitesmoke;
+            border: 2px lightgray solid;
+            border-radius: 7px;
+            height: 93vh;
+            width: 20vw; 
+        }
+
+        .menu-lista{
+            font-family: 'Raleway', sans-serif;
+            height: 12%;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(109, 179, 211);
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 0.3em rgb(34, 62, 85) solid;
+        }
+
+        .menu-lista h4{
+            text-decoration: underline;
+        }
+        
+        .menu-acao{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center; 
+            width: 100%;
+            height: 50%;
+           
+        }
+
+        .menu-acao a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px 10%;
+        }
+
+        .menu-acao a:hover{
+            background-color: lightblue;
+            border-radius: 22px;
+
+        }
+
+        .menu-acao img{
+            width: 2vmax;
+            height: 2vmax;
+        }
+
+        .lista-motos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 88%;
+           
+        }
+
+        .item-lista{
+            margin: 2% 2%;
+            width: 94%;
+            height: 6.5em;
+            display: flex;
+            align-items: center;
+            background-color: rgb(34, 62, 85);
+            border-radius: 12px;
+        }
+
+        .item-lista label{
+        }
+
+        .descridiv{
+            font-family: 'Noto Serif', serif;
+            color: white;   
+            font-size: 12px;
+            padding-left: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 48%;
+            height: 90%;
+        }
+
+        .radiodiv{
+            width: 48%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .radiodiv input{
+            margin-right: 40%;
+        }
+
+        input[name=radiomoto]{
+            width: 1.5em;
+            height: 1.5em;
+        }
+
+
+ /*------------------------ LISTA DE MOTOCICLETAS ------------*/
+
+
+        .preView{
+            background-color: whitesmoke;
+            border-radius: 7px;
+            border: 2px lightgray solid;
+            height: 93vh;
+            width: 76vw;
+            margin-left: 0.5vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+         }
+
+         #titulo-preView{
+             font-family: 'Raleway', sans-serif;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             height: 5%;
+             width: 100%;
+             background-color: rgb(109, 179, 211);
+             border-bottom: 0.3em rgb(34, 62, 85) solid;
+             text-decoration: underline;
+         }
+
+         
+             
+         .topList{
+            font-family: 'Noto Serif', serif;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            width: 100%;
+            height: 15%;
+         }
+
+         .itemSelected{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 98%;
+            height: 60%;
+         }
+
+         .itemSelected img{
+            width: 60%;
+            height: 80%;
+         }
+
+         .bottomList{
+            font-family: 'Noto Serif', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 15%;
+         }
+
+        .propItem{
+            display: flex;
+            text-align: center;
+            width: 23%;
+            height: 90%;
+            margin: 5% 2%;
+            box-sizing: border-box;
+        }
+
+        .propItem a:hover{
+            border-radius: 45px;
+            color: white;
+            background-color: rgb(34, 62, 85);
+            cursor: pointer;
+            transition-delay: 0.08s;
+        }
+
+        .propItem a{
+            border-radius: 45px;
+            background-color: gray;
+            color: black;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+
+
+/*------------------CREATING STYLE-----------------*/
+
+      
