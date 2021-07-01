@@ -17,7 +17,7 @@
             display: flex; 
             flex-direction: row;          
             width: 100vw;
-            height: 5vh;
+            height: 7vh;
             background-color:rgb(201, 174, 124);
             position: fixed;
             border-bottom: slategray 4px solid;
@@ -50,9 +50,10 @@
 
         #iconeUsuario{ 
             background-color: white;
-            border-radius: 100%;        
-            width: 2.5vmax;
-            height: 2.5vmax;
+            border-radius: 45%;
+            padding: 2px 3px;       
+            width: 2.2vmax;
+            height: 2vmax;
         }
 
         #username{
@@ -62,16 +63,20 @@
         }
 
         .indexTituloHeader{   
+            height: 100%;
             display: flex;
             width: 80%;
             align-items: center;
             justify-content: center;
-            font-size: 1.8em;
             font-family: 'Raleway', sans-serif;
         }
+
+        .indexTituloHeader p{
+            font-size: 1.8em;
+        }
         .indexTituloHeader img{
-            width: 5vmax;
-            height: 2.5vmax;
+            width: 7vmax;
+            height: 120%;
         }
         .log-out{
             display: flex;
@@ -81,18 +86,23 @@
             justify-content: flex-end;
         }
         #logout{
-            width: 1.8rem;
-            height: 1.8rem;
-            margin-right: 25%;
+            height: 90%;
             display: flex;
             align-items: center;
+            margin-right: 25%;
+        }
+
+        #logout:hover{
+            border-radius: 5%; 
+            background-color:rgb(173, 142, 84) ;
         }
 
         #logout img{
             background-color: white;
             border-radius: 45%;
-            width: 2.5vmax;
-            height: 2.5vmax;
+            padding: 2px 3px;
+            width: 2.2vmax;
+            height: 2vmax;
         }
 
         .indexCorpo{
@@ -113,7 +123,7 @@
             background-color: whitesmoke;
             border: 2px lightgray solid;
             border-radius: 7px;
-            height: 93vh;
+            height: 89vh;
             width: 20vw; 
         }
 
@@ -179,9 +189,6 @@
             border-radius: 12px;
         }
 
-        .item-lista label{
-        }
-
         .descridiv{
             font-family: 'Noto Serif', serif;
             color: white;   
@@ -218,7 +225,7 @@
             background-color: whitesmoke;
             border-radius: 7px;
             border: 2px lightgray solid;
-            height: 93vh;
+            height: 89vh;
             width: 76vw;
             margin-left: 0.5vw;
             display: flex;
@@ -259,8 +266,9 @@
          }
 
          .itemSelected img{
-            width: 60%;
-            height: 80%;
+            max-width: 60%;
+            max-height: 80%;
+            
          }
 
          .bottomList{

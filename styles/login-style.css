@@ -3,48 +3,47 @@
         
    margin: 0;
    padding: 0;
-   
+   font-family: 'Raleway', sans-serif;
 }
 
 .navbar{
    display: flex;
    align-items: center;
-   flex-direction: column;
+   justify-content: center;
    width: 100vw;
-   height: 5vh;
-   background-color: whitesmoke;
-   text-align:center;
+   height: 7vh;
+   background-color:rgb(201, 174, 124);
    position: fixed;
    border-bottom: slategray 4px solid;
    
    
 }
-.tituloHeader{   
-   display: flex;
-   font-size: 190%;
-   border-bottom-style: groove;
-   
-}
+
 .corpo{
 display: flex;
 padding: 20vh 10vw;
-background-color:rgb(158, 127, 87);
+background-color: antiquewhite;
+
 
 }
 
 .boxLogin{
+display: flex;
+flex-direction: column;
+align-items: center;
 text-align: center;
 background-color: gainsboro;
 border: rgb(104, 102, 102) solid 3px;
 border-radius: 22px;
 height: 60vh;
 width: 40vw;
-float: left;
-margin-right: 4vw;
 }
 
 .boxCadastro{
-text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 background-color: gainsboro;
 border: rgb(104, 102, 102) solid 3px;
 border-radius: 22px;
@@ -53,34 +52,45 @@ width: 40vw;
 margin-left: 4vw;
 }
 
-.corpo .boxLogin h3{
-padding-top: 6vh;
-padding-bottom: 4vh;
-border-bottom: 4px slategray solid;
+
+.bl-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 100%;
+   height: 25%;
 }
-.corpo .boxLogin p{
-   font-size: 18px;
-   padding: 2vh 0vw;
+
+.bl-div h3{
+   margin-top: 7%;
+}
+
+.bl-div input{
+   width: 35%;
 }
 
 #btnEntrar{
-   margin-top: 2vh;
-   font-size: 18px;
+     font-size: 18px;
 }
 
-.corpo .boxCadastro h3{
-padding-top: 6vh;
-padding-bottom: 4vh;
-border-bottom: 4px slategray solid ;
+.bc-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 100%;
+   height: 20%;
 }
 
-.corpo .boxCadastro p{
-   font-size: 18px;
-   padding: 1vh 0vw;
-   margin-top: 1vh;
+.bc-div h3{
+   margin-top: 7%;
+}
+
+.bc-div input{
+   width: 35%;
 }
 
 #btnCriar{
-   margin-top: 2vh;
    font-size: 18px;
 }

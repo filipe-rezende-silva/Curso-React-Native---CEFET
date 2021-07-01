@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login-style.css">
+    <link rel="stylesheet" href="styles/login-style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
     <title>Motonagement</title>
@@ -13,30 +13,54 @@
     
     <!-- CABEÇALHO --> 
     <div class="navbar"> 
-        <h1 class="tituloHeader">Seja bem vindo ao MOTONAGEMENT</h1>
+        <h2 class="tituloHeader">Seja bem vindo ao MOTONAGEMENT</h2>
     </div>
 
     <!--CORPO DO TEXTO-->
     <div class="corpo">
         <div class="boxLogin">
-            <h3>FAÇA SEU LOGIN</h3>
-            <p>Digite seu usuário:</p>
-            <input type="text"  id="inputUsuario">
-            <p>Digite sua senha:</p>
-            <input type="text" id="inputSenha">
-            <br>
-            <input type="button" value="Entrar" id="btnEntrar" onclick="usuarioLogar()">
+            <div class="bl-div">
+                <h3>FAÇA SEU LOGIN</h3>
+            </div>
+
+            <div class="bl-div">
+                <label for="inputUsuario">Digite seu usuário:</label>
+                <input type="text"  id="inputUsuario">
+            </div>
+
+            <div class="bl-div">
+                <label for="inputSenha">Digite sua senha:</label>
+                <input type="text" id="inputSenha">
+            </div>
+
+            <div class="bl-div">
+                <input type="button" value="Entrar" id="btnEntrar" onclick="usuarioLogar()">
+            </div>
         </div>
+
         <div class="boxCadastro">
-            <h3>FAÇA SEU CADASTRO</h3>
-            <p>Digite seu usuário:</p>
-            <input type="text" name="" id="inputUsuario">
-            <p>Digite sua senha:</p>
-            <input type="text" id="inputSenha">
-            <p>Repita sua senha:</p>
-            <input type="text" id="inputConfirmaSenha">
-            <br>
-            <input type="button" value="Criar" id="btnCriar" onclick="usuarioCriar()">
+            <div class="bc-div">
+                <h3>FAÇA SEU CADASTRO</h3>
+            </div>
+            
+            <div class="bc-div">
+                <label for="cadastroUsuario">Digite seu usuário:</label>
+                <input type="text"  id="cadastroUsuario">
+            </div>
+
+            <div class="bc-div">
+                <label for="cadastroSenha">Digite sua senha:</label>
+                <input type="text" id="cadastroSenha">
+            </div>
+
+            <div class="bc-div">
+                <label for="confirmaSenha">Digite sua senha:</label>
+                <input type="text" id="confirmaSenha">
+            </div>
+
+            <div class="bl-div">
+                <input type="button" value="Criar" id="btnCriar" onclick="usuarioCriar()">
+            </div>
         </div>
     </div>
 
