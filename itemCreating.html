@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles/creating-style.css">
-   <title>Prototype Creating</title>
+   <title>Novo item</title>
 </head>
 <body>
    <form action="criar()" class="form">
 
       <div class="Mheader">
-          <h3>PROTOTYPE CREATING</h3>
+          <h3>NOVO ITEM</h3>
           <a href="index.html" ><img src="img/cancel.png" alt=""></a>
       </div>
       <div class="itemForm">
@@ -21,7 +21,7 @@
 
       <div class="itemForm">
           <label for="anoMoto">Ano da moto:</label> <br>
-          <input type="numsber" id="anoMoto"  /> <br>
+          <input type="number" id="anoMoto"  /> <br>
       </div>
 
       <div class="itemForm">
@@ -31,8 +31,10 @@
       <div id="divFinal"class="itemForm">
          <label for="inputImg">Escolha uma imagem para sua moto:</label> <br>
          <input id="inputImg" type="file" name="arquivos" class=""  accept="image/png, image/jpeg"  multiple /> 
-         <button type="submit">CRIAR</button> 
       </div>
+      <a id="linkCriar" href="index.html">
+        <input id="btnCriar" type="button" value="CRIAR"></button>
+      </a>
    </form>
   <style>
    

@@ -234,27 +234,62 @@
             justify-content: flex-start;
          }
 
-         #titulo-preView{
+         #header-preView{
              font-family: 'Raleway', sans-serif;
+             height: 12%;
              display: flex;
+             flex-direction: column;
              align-items: center;
              justify-content: center;
-             height: 5%;
+             
              width: 100%;
+             border-radius: 5px 5px 0 0;
              background-color: rgb(109, 179, 211);
              border-bottom: 0.3em rgb(34, 62, 85) solid;
              text-decoration: underline;
          }
 
-         
-             
+         .menu-acao2{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center; 
+            width: 100%;
+            height: 58%;
+            margin-top:10px;
+        }
+
+        .tituloPreview{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            width: 100%;
+            height: 40%;
+        }
+
+        .menu-acao2 a{
+            display: flex;
+            align-items: center;
+            margin: 0 3%;
+            padding: 3px 2%;
+        }
+
+        .menu-acao2 img{
+            width: 2vmax;
+            height: 2vmax;
+        }
+        
+        .menu-acao2 a:hover{
+            background-color: lightblue;
+            border-radius: 22px;
+
+        }
          .topList{
             font-family: 'Noto Serif', serif;
             display: flex;
             justify-items: center;
             align-items: center;
             width: 100%;
-            height: 15%;
+            height: 13%;
          }
 
          .itemSelected{
@@ -277,7 +312,7 @@
             justify-content: center;
             align-items: center;
             width: 100%;
-            height: 15%;
+            height: 14%;
          }
 
         .propItem{
